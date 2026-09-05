@@ -45,6 +45,13 @@ ALL UI components MUST use dark theme colors:
 - Prefer utility classes over custom CSS when possible
 - Use semantic grouping: layout, spacing, colors, typography
 - Keep utility combinations readable and maintainable
+- Keep TypeScript and Astro formatting consistent with the ESLint configuration; do not use formatting changes as a substitute for explaining a design decision.
+
+## Comments
+
+- In Astro templates and CSS, comment only the intent, constraint, or browser/accessibility reason behind a non-obvious choice.
+- Do not add comments that merely describe a utility class, selector, or markup element.
+- Update or remove comments when the related styles change.
 
 ## Modern UI Patterns
 
